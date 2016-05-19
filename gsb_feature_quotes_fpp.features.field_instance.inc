@@ -317,7 +317,7 @@ function gsb_feature_quotes_fpp_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 32,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -342,7 +342,7 @@ function gsb_feature_quotes_fpp_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_existing_node_title_ref',
-    'label' => 'Existing Node Title(Idea Story, Page)',
+    'label' => 'Existing Node Title (Idea Story, Page)',
     'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
@@ -367,7 +367,7 @@ function gsb_feature_quotes_fpp_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Attribution Name');
   t('Attribution Title');
-  t('Existing Node Title(Idea Story, Page)');
+  t('Existing Node Title (Idea Story, Page)');
   t('Quote');
 
   return $field_instances;

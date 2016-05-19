@@ -51,7 +51,7 @@ function gsb_feature_quotes_fpp_ds_custom_fields_info() {
   $ds_field->ui_limit = 'quotes|*';
   $ds_field->properties = array(
     'code' => array(
-      'value' => '<a href="[fieldable_panels_pane:field-idea-story-ref:url]"><span class="first-double-apostrophe">&ldquo;</span><span class="quote">[fieldable_panels_pane:field-body]</span><span class="last-double-apostrophe">&rdquo;</span>
+      'value' => '<a href="[fieldable_panels_pane:field-existing-node-title-ref:url]"><span class="first-double-apostrophe">&ldquo;</span><span class="quote">[fieldable_panels_pane:field-body]</span><span class="last-double-apostrophe">&rdquo;</span>
 <span class="dash">—</span><span class="attribution">[fieldable_panels_pane:field_attribution]</span></a>',
       'format' => 'full_html',
     ),
