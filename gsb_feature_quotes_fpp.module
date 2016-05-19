@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Feature Quote FPP feature.
+ */
+
+include_once 'gsb_feature_quotes_fpp.features.inc';
