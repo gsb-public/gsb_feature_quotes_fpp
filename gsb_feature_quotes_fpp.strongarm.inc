@@ -56,8 +56,14 @@ function gsb_feature_quotes_fpp_strongarm() {
       'display' => array(
         'title' => array(
           'default' => array(
-            'weight' => '6',
+            'weight' => '7',
             'visible' => FALSE,
+          ),
+        ),
+        'quotes_title' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
           ),
         ),
       ),
